@@ -1,0 +1,53 @@
+.digital_agency {
+    background: linear-gradient(268.33deg, #3498DB 5.06%, #2980B9 94.73%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.agency_text small {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.agency_text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.agency_text p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+
+/* ===============Responsive================ */
+
+@media only screen and (min-width: 375px)and (max-width: 768px) {
+    .agency_text small {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .agency_text h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .agency_text p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 20px;
+    }
+}
